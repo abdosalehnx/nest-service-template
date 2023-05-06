@@ -6,7 +6,6 @@
     },
     "extends": [
       "plugin:@darraghor/nestjs-typed/recommended",
-      // TODO: remove this when we start to generate Open API docs using Swagger
       "plugin:@typescript-eslint/recommended",
       "prettier"
     ],
