@@ -11,7 +11,7 @@ export class AppController {
     description: 'See if nest is working!',
   })
   @Get()
-  getStatus(): string {
+  getStatus(): Object {
     return this.appService.getStatus();
   }
 }
